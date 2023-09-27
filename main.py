@@ -1,3 +1,4 @@
+from data import data
 
 class ArrayList:
 
@@ -55,4 +56,9 @@ print(list.contains(4))
 list.remove(1)
 print(list.asList())
 list.remove(3)
+print(list.asList())
+
+for d in data:
+    list.add(d)
+
 print(list.asList())
